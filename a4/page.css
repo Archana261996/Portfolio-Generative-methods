@@ -1,0 +1,63 @@
+body{
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(#040435, #003568);
+ 
+}
+
+h1, h2, h3{
+	
+	font-family: 'Shadows Into Light', cursive;
+    color: white;
+    text-align: center;
+}
+
+canvas {
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, .5), 0px 0px 0px 5px hsla(220, 100%, 90%, 1);
+	display: block;
+}
+.canvas-holder {
+	margin:  2px;
+	border:  3px solid white;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5);
+}
+
+#main-column {
+	padding:  15px;
+    margin: 2px auto;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, .5);
+	/*background-color: #06d6a0;*/
+	background-color: #C8A2C8;
+	/*background: linear-gradient(#040435, #003568)*/
+	border-radius: 5px;
+}
+#main {
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+button{
+		background-color: "white";
+		font-family: 'Shadows Into Light', cursive;
+		color: white;
+		font-size: 25px;
+	}
+
+.title{
+		padding: 10px;
+	}
+#control-panel {
+	max-width: 480px;
+	margin:  5px;
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+.slider {
+	display: inline-block;
+	margin:  3px;
+}

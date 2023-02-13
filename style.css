@@ -1,0 +1,52 @@
+	a, .heading, span, .table-class{
+		font-family: 'Shadows Into Light', cursive;
+		color: white;
+		font-size: 25px;
+	}
+
+	#bio {
+		border-style: solid;
+	    border-color: white;
+	    display: flex;
+	    align-items: top;
+	    justify-content: left
+	}
+
+	body{
+		background-image: url("bgimg.JPG");
+		background-size: cover;
+
+	}
+
+	button{
+		background-color: #5D3FD3;
+		font-family: 'Shadows Into Light', cursive;
+		color: white;
+		font-size: 25px;
+	}
+
+    .image{
+	   flex-basis: 40%;
+	}
+
+    img
+	{
+	   width: 300px;
+	}
+
+	td, th, tr {
+	  border: 2px solid #dddddd;
+	  text-align: left;
+	  padding: 8px;
+	  background-color: #5D3FD3;
+	}
+
+	.text {
+	  font-size: 25px;
+	  padding-left: 20px;
+	  font-family: 'Shadows Into Light', cursive;
+	  color: white;
+	 }
+
+
+	

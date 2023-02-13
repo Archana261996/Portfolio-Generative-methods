@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+
+	
+	<title>Archana R - Drawing Tool</title>
+	
+
+	<link rel="stylesheet" href="page.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">    
+	<script src="../../../shared/p5.js"></script>
+
+
+	<!-- P5 Loaded from a CDN -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script> -->
+
+	<!-- Or P5 loaded locally -->
+	<script src="../../../shared/p5.min.js"></script>
+
+
+	<script src="vector.js"></script>
+	<script src="curve.js"></script>
+
+	<!-- Implement all the tools -->
+	<script src="tools.js"></script>
+
+		<!-- My app's code goes last, 
+			because it needs to refer to things in the previous two JS files -->
+			<script src="app.js"></script>
+
+
+		</head>
+		<body>
+
+			<header>
+				<div class="title">
+					<button align = "left" onclick=""> <a href="../index.html"> Home </a> </button>
+					<h1>A3: Drawing Tool : Drawxie!!🎨</h1></div>
+				<div class="controls">
+				</div>
+			</header>
+
+
+			<div id="main">
+				<div id="main-column">
+					
+					<div id="p5-holder">
+						<!-- Processing gets installed here -->
+					</div>
+
+					<div align="center">
+						<button onclick="tool.mode='Stars'">🤩🤩🤩</button>
+						<button onclick="tool.mode='NeonCircles'">🔵🟣🔴</button>
+						<button onclick="tool.mode='PencilShades'">✏️🕶</button>
+						<button onclick="tool.clearCanvas(tool.p)">🧼🧼🧼</button>
+
+						<div>
+							<!-- <input type="color" id="color0" onchange="tool.color0 = hexToHSL(this.value)"> -->
+							<input type="color" id="color0" onchange="tool.color0 = hexToHSL(this.value)">
+							<input type="color" id="color1" onchange="tool.color1 = hexToHSL(this.value)">
+							<input type="color" id="color2" onchange="tool.color2 = hexToHSL(this.value)">
+							<input type="color" id="color3" onchange="tool.color3 = hexToHSL(this.value)">
+							<input type="range" min="5" max="100" value="10" class="slider" onchange="tool.size = this.value*.1">
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</body>
+		</html>

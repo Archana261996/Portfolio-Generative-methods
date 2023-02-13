@@ -1,0 +1,31 @@
+body{
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(#040435, #003568);
+ 
+}
+
+h1, h2, h3{
+	
+	font-family: 'Shadows Into Light', cursive;
+    color: white;
+	
+}
+
+.swatch {
+
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	width: 350px;
+}
+
+#home_button{
+		padding: 10px;
+	}
+button{
+		background-color: "white";
+		font-family: 'Shadows Into Light', cursive;
+		color: white;
+		font-size: 25px;
+	}
