@@ -1,4 +1,4 @@
-# A1 Archana's Kaleidoscope
+# Archana's Kaleidoscope
 This webpage consists of a compilation of all the work I did for Generative methods. These include using various frameworks such as vue.js.
 Main languages used here are HTML and JavaScript. 
 
