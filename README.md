@@ -2,7 +2,7 @@
 This webpage consists of a compilation of all the work I did for Generative methods. These include using various frameworks such as vue.js.
 Main languages used here are HTML and JavaScript. 
 
-# CITATIONS:
+### CITATIONS:
 Background Image was taken by me
 
 Image of me was taken by my friend
