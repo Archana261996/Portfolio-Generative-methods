@@ -1,8 +1,9 @@
 # Archana's Kaleidoscope
-This webpage consists of a compilation of all the work I did for Generative methods. These include using various frameworks such as vue.js.
+This webpage consists of a compilation of all the work I did for Generative methods. The work in this repository makes use of various frameworks such as vue.js.
+
 Main languages used here are HTML and JavaScript. 
 
-### CITATIONS:
+#### Citations:
 Background Image was taken by me
 
 Image of me was taken by my friend
@@ -21,5 +22,4 @@ https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-imag
 I got help with the code for displaying an image when the button is clicked from
 https://stackoverflow.com/questions/8886248/add-image-to-page-onclick
 
-The rest of the code was written by me based on the readings and what was taught in class.
 
