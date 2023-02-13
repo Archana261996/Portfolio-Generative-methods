@@ -12,6 +12,6 @@ My portfolio includes:
 
 ### Languages Used:
 HTML, JavaScript
-JavaScript frameworks used: P5.js, Tracery, vue.js, handsfree.js
+<br>JavaScript frameworks used: P5.js, Tracery, vue.js, handsfree.js
 
 
