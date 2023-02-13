@@ -1,25 +1,17 @@
 # Archana's Kaleidoscope
-This webpage consists of a compilation of all the work I did for Generative methods. The work in this repository makes use of various frameworks such as vue.js.
+This webpage consists of a compilation of all the work I did for Generative methods. 
 
-Main languages used here are HTML and JavaScript. 
+My portfolio includes: 
+- Three innovate GIFs developed using P5.js
+- A drawing tool developed using a P5 canvas with buttons that set the mode to different drawing tools with different strokes and a button to clear the canvas. 
+- Three particle swarms that react to the player's mouse cursor and each other. 
+- A chatbot created using tracery and vue.js that interacted with the user and gave details about places to visit in India.
+- A custom Game-of-Life cellular automata, similar to Nicky Case's Emoji Simulator app. 
+- A function that takes an array of floats and returns a "catification" algorithm like the one that turns Cryptokitty tokens into Cryptokitty art.
+- A function created using handsfree.js that tracks live facial expressions and hand gestures using the webcam and turns it into P5 graphics. The P5 graphics I created was a mask which moves based on the users hand and face movements. 
 
-#### Citations:
-Background Image was taken by me
-
-Image of me was taken by my friend
-
-Smiley image was edited by me 
-
-I got the font from google
-https://fonts.google.com/specimen/Shadows+Into+Light?query=shad
-
-I got the background colour for the table and button from 
-https://htmlcolorcodes.com/colors/shades-of-blue/
-
-I got help with the code for placing the text beside the picture from 
-https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
-
-I got help with the code for displaying an image when the button is clicked from
-https://stackoverflow.com/questions/8886248/add-image-to-page-onclick
+### Languages Used:
+HTML, JavaScript
+JavaScript frameworks used: P5.js, Tracery, vue.js, handsfree.js
 
 
